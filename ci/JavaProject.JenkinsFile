@@ -23,7 +23,10 @@ pipeline {
                     echo "build step completed successfuly" 
                     echo "Build step completed successfully. Next step is Test ...."
 
-                    echo "git fetch origin main " 
+                    echo "git fetch origin main "
+                    echo "git diff main..origin/main"
+                    echo " git merge origin/main " 
+
 
                 '''
             }
