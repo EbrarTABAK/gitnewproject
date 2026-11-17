@@ -22,6 +22,9 @@ pipeline {
                     gradle build
                     echo "build step completed successfuly" 
                     echo "Build step completed successfully. Next step is Test ...."
+
+                    echo "git fetch origin main " 
+
                 '''
             }
         }
